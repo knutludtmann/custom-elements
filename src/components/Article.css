@@ -1,0 +1,25 @@
+/*.article {
+    font-size: 14px;
+    border: 3px dashed red;
+    & a {
+        color: var(--color-blue);
+    }
+    & p {
+        color: var(--color-black);
+        font-family: var(--font-text);
+        font-weight: var(--font-weight);
+        line-height: var(--line-height);
+    }
+    @media (width > 600px) {
+        max-width: 30em;
+    }
+}
+
+
+section {
+    border: 1px solid blue;
+    
+   lost-utility: clearfix;
+}
+
+*/
